@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    int b = 1;
     int w;
     cout << "Podaj liczbe wierszy";
     cin >> w;
@@ -13,14 +14,12 @@ int main()
         {
             cout <<" ";
         }
-                for(int j=0;j<(w-i)/2;j++)
+
+        for (int k=0;k<b;k++)
         {
-            cout <<" ";
+            cout << "x ";
         }
-        for (int k=0;k<(i);k++)
-        {
-            cout << "x";
-        }
+        b++;
         cout <<endl;
     }
     return 0;
